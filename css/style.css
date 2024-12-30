@@ -1,0 +1,113 @@
+.nav-icon a i:hover{
+    color: rgb(100, 149, 237);
+    transform: scale(1.25);
+}
+#NavBar ul li a:hover{
+    color: #00a8e8;
+}
+.dropdown> .dropdown-menu{
+    border: none;
+    border-radius: 0;
+}
+.nav-icon{
+    gap: 25px; 
+}
+.navbar .log-sign #login-nav:hover{
+    transform: scale(1.1);
+}
+.navbar .log-sign #signup-nav:hover{
+    transform: scale(1.02);
+}
+#signup-nav{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.c-item{
+    height: 580px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.cv-item{
+    height: 600px;
+}
+.cv-video{
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardImg{
+    background-color: #EEEEEE ;
+}
+#learnLink{
+    text-decoration: none;
+    color: black;
+}
+#learnLink:hover{
+    color: grey;
+    text-decoration: underline;
+    
+}
+.cd-card{
+    transition: all 0.3s ease;
+}
+.cd-card:hover{
+    box-shadow: 4px 4px 4px rgb(191, 191, 191);
+    transform:scale(1.02);
+}
+#zoomImg{
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+#zoomImg:hover{
+    transform: scale(1.02);
+}
+#logo-img{
+    width: 30%;
+    text-align: center;
+}
+.login{
+    margin-top: 100px;
+}
+.footer{
+    margin-top: 135px;
+}
+.droneLink{
+    color: white !important;
+}
+
+
+@media screen and (min-width:300px) and (max-width:996px) {
+    #cardImg{
+        margin-bottom: 10px;
+    }
+    .srv-card{
+        margin-top: 25px;
+    }
+    #S-Card{
+        margin-left: 30px;
+    }
+    .cv-item{
+        height: fit-content;
+    }
+    #droneServices{
+        margin-top: 20px;
+    }
+}
